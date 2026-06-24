@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags1</title>
+    <style>
+        body {
+            background-color: bisque;
+            margin: 0;
+        }
+        header {
+            background-color: white;
+            padding: 5px;
+            margin: 5px;
+        }
+        nav{
+            background-color: rgb(210, 167, 98);
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgba(12, 8, 1, 0.818);
+            margin-left: 30px;
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        article {
+            margin: 5px;
+            text-align: justify;
+        }
+        footer{
+            margin: 5px;
+            background-color:  darkgoldenrod;
+        }
+        article > aside {
+           
+           background-color: rgb(210, 167, 98);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Raças de Zebuinos</h1>
+        <nav>
+            <a href="#">Nelore</a>
+            <a href="#">Guzerá</a>
+            <a href="#">Gir</a>
+            <a href="#">Sindi</a>
+            <a href="#">Tabapuã</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <p>São raças de bovinos originarias da África. Seu ponto forte é tolerância ao calor e sobreviver à condições de baixa qualidade de alimento. Por serem rústicos, se adaptaram muito bem ao clima sub-tropical do Brasil. Tem alta taxa de fertilidade e grande ganho de peso, o que é extremamente desejável para o produtor.</p>
+            <aside>Escrito por Magno César de Lara e Alvarenga</aside>
+        </article>
+    </main>
+    <footer>
+        <p>Produzido por Magno Alvarenga</p>
+    </footer>
+</body>
+</html>
